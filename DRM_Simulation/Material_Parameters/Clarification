@@ -1,0 +1,13 @@
+## Material parameters
+The material parameters used in this repository are compiled from published literature related to plasma arc erosion in SF6 circuit breakers and high-temperature material behavior.
+
+## Reference
+Unless otherwise stated, the material parameters used in this work, including density ρ (kg·m^−3), enthalpy H (J·kg^-1), specific heat Cp (J·K^-1·kg^-1), thermal conductivity K (W·m^-1·K^-1), dynamic viscosity η (kg·m^-1·s^-1), and electrical conductivity σ (S/m), are taken from the following references.
+[1] Wu, Y., Chen, Z., Yang, F., Cressault, Y., Murphy, A. B., Guo, A., ... & Sun, H. (2015). Two-temperature thermodynamic and transport properties of SF6–Cu plasmas. Journal of Physics D: Applied Physics, 48(41), 415205.
+[2] Chervy, B., Gleizes, A., & Razafinimanana, M. (1994). Thermodynamic properties and transport coefficients in SF6-Cu mixtures at temperatures of 300-30000 K and pressures of 0.1-1 MPa. Journal of Physics D: Applied Physics, 27(6), 1193-1206.
+[3] Yin, Jianning, et al. "The arcing and post-arc breakdown characteristics of SF6 generator circuit breaker based on magnetohydrodynamic model." Physics of Fluids 36.11 (2024).
+
+## Additional clarification
+For properties reported only at discrete temperature points, interpolation or piecewise fitting is used to construct the temperature-dependent functions required by the solver. Some parameters may differ slightly from the original reported values due to unit conversion, interpolation, extrapolation over a limited range, or minor adjustments for numerical stability. Overall, the spline method is recommended.
+
+Please consult the original references for the detailed experimental conditions, measurement methods, and applicability range of each parameter set.

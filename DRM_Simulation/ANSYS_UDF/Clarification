@@ -1,0 +1,21 @@
+## UDF in ANSYS
+This repository contains the ANSYS UDF files developed for the simulation of electrode erosion in circuit breakers under plasma arc conditions. These UDF functions are intended to be used together with corresponding models in ANSYS. No restriction is imposed on the specific ANSYS model setup, since different users may employ different model parameters, boundary conditions, and application-specific configurations. For this reason, the present repository does not include or prescribe a unique ANSYS modeling procedure, but only provides the UDF implementation itself. The source code is organized into several modules according to their physical and numerical functions.
+
+## UDF_Define.c
+Main definition file containing the global parameters, constants, and shared variables used throughout the simulation.
+
+## UDF_Geometry_Crater.c
+Crater evolution model describing how the electrode surface is eroded and reshaped under plasma arc erosion.
+Pay attention, the geometric settings in this section are user-dependent and should be determined according to the specific model setup, parameter set, and application scenario.
+
+## UDF_Geometry_Vector.c
+Mesh displacement vector file used to update the computational grid after the appearance of metal vapor during the erosion process.
+
+## UDF_PlasmaArc_MHD.c
+Implementation of the magnetohydrodynamic (MHD) governing equations and their numerical solution procedure for plasma arc simulation.
+
+## UDF_Vapor_CuMass.c
+Model for the generation of metal vapor mass and the cumulative calculation of the produced metal mass during the simulation.
+
+## Additional clarification
+This open-source release is intended to present the modeling methodology as clearly and transparently as possible. The repository includes the key components of the numerical implementation, including parameter definition, crater evolution, mesh movement, plasma arc MHD solution, and metal vapor mass generation. No essential part of the modeling approach has been intentionally omitted.

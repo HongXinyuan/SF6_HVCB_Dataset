@@ -1,0 +1,7 @@
+## SCM in ANSYS
+This repository contains the SCM files developed for material-property definition in ANSYS for circuit breaker ablation simulations, including Cu-solid-liquit.scm, Cu-vapor.scm, and SF6.scm. These files are provided primarily as examples of the format and implementation style required by the ANSYS material interface, rather than as a complete or universally applicable material database. More detailed material properties can be found in the Material Parameters folder. Users are expected to further define, adapt, and implement the material parameters according to their own model setup, parameter selection, and application requirements.
+
+## File description
+Cu-solid-liquit.scm: SCM definition file for copper properties in the solid/liquid phase range.
+Cu-vapor.scm: SCM definition file for copper vapor properties.
+SF6.scm: SCM definition file for SF6 material properties.

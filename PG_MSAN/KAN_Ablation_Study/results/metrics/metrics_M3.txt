@@ -1,0 +1,8 @@
+实验: M3
+损失类型: Lreg
+数据集: Ds_Simulation_Dataset
+物理特征=1  注意力=1  修正=0
+
+[训练集] MAE=0.0765  RMSE=0.0991  R2=0.9994  MaxAE=0.2680  MeanRelError=0.03%
+[验证集] MAE=0.1625  RMSE=0.2205  R2=0.9970  MaxAE=0.4975  MeanRelError=0.06%
+[测试集] MAE=0.2365  RMSE=0.5682  R2=0.9779  MaxAE=2.7122  MeanRelError=0.08%

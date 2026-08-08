@@ -1,0 +1,8 @@
+实验: M8
+损失类型: Full
+数据集: Dr_Real_Erosion_Dataset, Da~_Artificial-to-Real_Dataset, Ds~_Simulation-to-Real_Dataset
+物理特征=1  注意力=1  修正=1
+
+[训练集] MAE=0.1103  RMSE=0.1707  R2=0.9982  MaxAE=0.7626  MeanRelError=0.04%
+[验证集] MAE=0.0966  RMSE=0.1135  R2=0.9992  MaxAE=0.2449  MeanRelError=0.03%
+[测试集] MAE=0.1765  RMSE=0.2567  R2=0.9959  MaxAE=0.7839  MeanRelError=0.06%

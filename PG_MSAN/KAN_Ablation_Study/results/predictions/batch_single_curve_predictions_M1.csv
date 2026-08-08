@@ -1,0 +1,12 @@
+Set,Source,FilePath,TrueLength_mm,PredLength_mm,AbsError_mm,RelError_pct
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\281.39mm.dat,281.39,281.192545692226,0.197454307774422,0.070171046509976
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\284.59mm.dat,284.59,284.362605666158,0.227394333842142,0.0799024329182831
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\285.35mm.dat,285.35,285.068236027699,0.281763972301178,0.0987432879976093
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\288.74mm.dat,288.74,288.867209238529,0.12720923852936,0.0440566733148716
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\290.83mm.dat,290.83,291.078170993486,0.248170993486326,0.0853319786426181
+Train,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\291.04mm.dat,291.04,291.107328637953,0.0673286379532101,0.0231338090823289
+Val,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\281.57mm.dat,281.57,281.304946416432,0.265053583568374,0.0941341703904443
+Val,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\284.46mm.dat,284.46,284.399201101449,0.0607988985512975,0.0213734439117266
+Val,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\288.86mm.dat,288.86,288.943944709967,0.0839447099674544,0.0290606902885323
+Test,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\290.11mm.dat,290.11,289.249756203793,0.860243796207044,0.296523317433747
+Test,Dr_Real_Erosion_Dataset,C:\Users\Hong\Desktop\PG_MSAN\Database\Dr_Real_Erosion_Dataset\290.62mm.dat,290.62,290.384282122282,0.235717877717946,0.0811086221588141

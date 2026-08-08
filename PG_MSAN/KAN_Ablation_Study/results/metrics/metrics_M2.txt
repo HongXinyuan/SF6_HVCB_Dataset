@@ -1,0 +1,8 @@
+实验: M2
+损失类型: Lreg
+数据集: Da_Artificial_Dataset
+物理特征=1  注意力=1  修正=0
+
+[训练集] MAE=0.6537  RMSE=0.7879  R2=0.9670  MaxAE=1.6541  MeanRelError=0.23%
+[验证集] MAE=0.0417  RMSE=0.0417  R2=NaN  MaxAE=0.0417  MeanRelError=0.01%
+[测试集] MAE=0.9466  RMSE=1.2346  R2=0.9084  MaxAE=2.3423  MeanRelError=0.33%

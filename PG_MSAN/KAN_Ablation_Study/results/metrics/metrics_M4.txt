@@ -1,0 +1,8 @@
+实验: M4
+损失类型: Lreg
+数据集: Dr_Real_Erosion_Dataset, Da_Artificial_Dataset, Ds_Simulation_Dataset
+物理特征=1  注意力=1  修正=0
+
+[训练集] MAE=0.2282  RMSE=0.2965  R2=0.9944  MaxAE=1.2174  MeanRelError=0.08%
+[验证集] MAE=0.2091  RMSE=0.2774  R2=0.9951  MaxAE=0.8382  MeanRelError=0.07%
+[测试集] MAE=0.3027  RMSE=0.5299  R2=0.9823  MaxAE=1.9992  MeanRelError=0.11%

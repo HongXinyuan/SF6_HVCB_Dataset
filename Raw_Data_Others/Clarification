@@ -1,0 +1,11 @@
+## Raw data
+The raw datasets are released for reference and research purposes only. Because multiple datasets may contain noise or experimental fluctuations, the data are provided as is, and users are responsible for their own preprocessing, filtering, validation, and interpretation. No warranty is made regarding the absence of noise or the suitability of the raw data for any specific purpose.
+Travel_Raw_Data: The folder contains four sets of raw circuit breaker travel data released in this repository.
+Voiceprints_Raw_Data: This folder contains the raw circuit breaker interruption voiceprints signals acquired by a 64-channel sensor system.
+Electrical_Raw_Data: This folder contains the voltage and current data recorded during the interruption tests, as well as data from selected synthetic-circuit tests.
+
+## Data extract
+This repository provides the raw experimental data related to circuit breaker studies, including travel-curve data, voiceprints data, and interruption electrical data. Since the sampling points are very dense, many of the datasets are large in size. To facilitate data access and processing, a MATLAB utility script, Data_Extract.m, is provided to assist users in extracting and handling the travel & electrical data.
+
+## Additional clarification
+It should also be noted that, for some test conditions, permission was not obtained to publish data measured under power-frequency conditions (50 Hz). Therefore, certain released datasets are limited in scope. For example, the interruption electrical raw data currently include only the 20 Hz cases.
